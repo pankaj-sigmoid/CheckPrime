@@ -2,14 +2,14 @@ package com.company;
 
 import java.io.IOException;
 
-public class CheckPrime {
+public class PrimeChecker {
 
     private FileInput fileInput;
     public void setFileInput(FileInput fileInput){
         this.fileInput = fileInput;
     }
 
-    public boolean isPrime() throws IOException {
+    public boolean check() throws IOException {
 
         int num= fileInput.takeInputFromExternalFile();
 
